@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">
+
+    <RelativeLayout
+        android:id="@+id/RL1"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/ItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheese Spring Masala Dosa"
+            android:textColor="#000"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/rupee"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/pricetv"
+            android:text="@string/rupee"/>
+        <TextView
+            android:id="@+id/pricetv"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80"/>
+
+
+        <TextView
+            android:id="@+id/Qtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="Quantity : "
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_below="@id/ItemName"
+            android:paddingTop="3dp"/>
+
+        <TextView
+            android:id="@+id/Qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_toEndOf="@id/Qtv"
+            android:layout_alignBaseline="@id/Qtv"/>
+
+        <Button
+            android:id="@+id/plus1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/pricetv"/>
+        <Button
+            android:id="@+id/minus1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_toStartOf="@id/plus1"
+            android:layout_below="@id/pricetv"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

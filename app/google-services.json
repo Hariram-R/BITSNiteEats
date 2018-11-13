@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "229390227401",
+    "firebase_url": "https://bitsniteeats.firebaseio.com",
+    "project_id": "bitsniteeats",
+    "storage_bucket": "bitsniteeats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229390227401:android:5a8267677b171334",
+        "android_client_info": {
+          "package_name": "com.ram.hari.android.bitsniteeats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229390227401-hl5c8lep12eao28q4q0e7s8tc780iegu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ram.hari.android.bitsniteeats",
+            "certificate_hash": "f3617c88c5c6974f7def83821a5eaf12c7fbd78a"
+          }
+        },
+        {
+          "client_id": "229390227401-0f83b89oglno1gdi0locqug1hgm5q2q3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtmpfewNxyIrJ7sWG1tA4SnJdQUkGWABk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229390227401-0f83b89oglno1gdi0locqug1hgm5q2q3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
